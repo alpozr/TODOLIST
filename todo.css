@@ -1,0 +1,81 @@
+body{
+    background: url(bp-1-.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-position-y: -2%;
+}
+ul {
+    margin: 50px;
+    padding: 50px;
+    list-style:none;
+    margin: 14%;
+  }
+  
+  /* Style the list items */
+  ul li  {
+    padding: 12px 8px 12px 20px;
+    font-size: 20px;
+    transition: 0.2s;
+    position:relative;
+    margin:0;
+    margin-top:15px;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: seashell;
+    transition: 0.8s;
+  }
+  .yapılacakk{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    
+}
+.yapılacakk input[type=text]{
+    width: 200px;
+    height: 40px;
+}
+.yapılacakk input[type=button]{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+
+}
+.close{
+        
+        padding: 12px 16px 12px 16px;
+       
+}
+.close:hover {
+    background-color: #f44336;
+    color: white;
+    transition: 0.8s;
+  }
+  .checked{
+        
+    padding: 12px 16px 12px 16px;
+   
+}
+.checked:hover {
+background-color: green;
+color: white;
+transition: 0.8s;
+}
+.return{
+        
+  padding: 12px 16px 12px 16px;
+ 
+}
+.return:hover {
+background-color: blue;
+color: white;
+transition: 0.8s;
+}
